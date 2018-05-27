@@ -364,7 +364,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://localhost:4000/2018/05/26/?t=cjhoswgoe0007dm8zylq8mjpt">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/2018/05/26/?t=cjhosxyr80007fl8zr0kmjfh9">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="采风">
@@ -461,7 +461,7 @@
 
           
           
-             <span id="/2018/05/26/?t=cjhoswgoe0007dm8zylq8mjpt" class="leancloud_visitors" data-flag-title="Yummy FTP 2.0.5 快速安全的 FTP/SFTP/FTPS客户端">
+             <span id="/2018/05/26/?t=cjhosxyr80007fl8zr0kmjfh9" class="leancloud_visitors" data-flag-title="Yummy FTP 2.0.5 快速安全的 FTP/SFTP/FTPS客户端">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -495,7 +495,7 @@
           
             <div class="post-gallery-row">
               <a class="post-gallery-img fancybox"
-                 href="/2018/05/26/?t=cjhoswgoe0007dm8zylq8mjpt" rel="gallery_cjhoswgoe0007dm8zylq8mjpt"
+                 href="/2018/05/26/?t=cjhosxyr80007fl8zr0kmjfh9" rel="gallery_cjhosxyr80007fl8zr0kmjfh9"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="https://user-images.githubusercontent.com/39632342/40575009-95a46790-610f-11e8-8b35-7bf442d4c84b.png" itemprop="contentUrl"/>
               </a>
@@ -543,7 +543,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/05/26/?t=cjhoswgnz0001dm8zusiymg59" rel="prev" title="OmniGraffle Pro 7.7.1 强大的图形工具">
+              <a href="/2018/05/26/?t=cjhosxyqr0001fl8zj3er4e46" rel="prev" title="OmniGraffle Pro 7.7.1 强大的图形工具">
                 OmniGraffle Pro 7.7.1 强大的图形工具 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -1232,9 +1232,25 @@
             });
           } else {
             
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
+              var newcounter = new Counter();
+              /* Set ACL */
+              var acl = new AV.ACL();
+              acl.setPublicReadAccess(true);
+              acl.setPublicWriteAccess(true);
+              newcounter.setACL(acl);
+              /* End Set ACL */
+              newcounter.set("title", title);
+              newcounter.set("url", url);
+              newcounter.set("time", 1);
+              newcounter.save(null, {
+                success: function(newcounter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                },
+                error: function(newcounter, error) {
+                  console.log('Failed to create');
+                }
+              });
             
           }
         },
