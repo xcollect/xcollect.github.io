@@ -389,7 +389,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/05/27/?t=cjhosxyqy0003fl8zodivg6i2" itemprop="url">
+            <a class="post-title-link" href="/2018/05/27/?t=cjhot4tkx0003jf8zd7myoxg3" itemprop="url">
               
                 <span itemprop="name">PDFelement 6 Pro 6.6.0.3278</span>
               
@@ -417,7 +417,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/05/26/?t=cjhosxyr00004fl8zb1hisixb" itemprop="url">
+            <a class="post-title-link" href="/2018/05/26/?t=cjhot4tkz0004jf8zkm678l2x" itemprop="url">
               
                 <span itemprop="name">Paragon NTFS for Mac 15.2.319</span>
               
@@ -445,7 +445,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/05/26/?t=cjhosxyr10005fl8zqn3vxt83" itemprop="url">
+            <a class="post-title-link" href="/2018/05/26/?t=cjhot4tl00005jf8zn5ou2qub" itemprop="url">
               
                 <span itemprop="name">Sketch 50.2</span>
               
@@ -473,7 +473,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/05/26/?t=cjhosxyql0000fl8zdz7y89wb" itemprop="url">
+            <a class="post-title-link" href="/2018/05/26/?t=cjhot4tkk0000jf8zbegopfv3" itemprop="url">
               
                 <span itemprop="name">CleanMyMac 3.9.6</span>
               
@@ -501,7 +501,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/05/26/?t=cjhosxyqr0001fl8zj3er4e46" itemprop="url">
+            <a class="post-title-link" href="/2018/05/26/?t=cjhot4tkq0001jf8zq6nx77vp" itemprop="url">
               
                 <span itemprop="name">OmniGraffle Pro 7.7.1 强大的图形工具</span>
               
@@ -529,7 +529,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/05/26/?t=cjhosxyr80007fl8zr0kmjfh9" itemprop="url">
+            <a class="post-title-link" href="/2018/05/26/?t=cjhot4tl90007jf8z5gml84ln" itemprop="url">
               
                 <span itemprop="name">Yummy FTP 2.0.5 快速安全的 FTP/SFTP/FTPS客户端</span>
               
@@ -1217,25 +1217,9 @@
             });
           } else {
             
-              var newcounter = new Counter();
-              /* Set ACL */
-              var acl = new AV.ACL();
-              acl.setPublicReadAccess(true);
-              acl.setPublicWriteAccess(true);
-              newcounter.setACL(acl);
-              /* End Set ACL */
-              newcounter.set("title", title);
-              newcounter.set("url", url);
-              newcounter.set("time", 1);
-              newcounter.save(null, {
-                success: function(newcounter) {
-                  var $element = $(document.getElementById(url));
-                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
-                },
-                error: function(newcounter, error) {
-                  console.log('Failed to create');
-                }
-              });
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
+              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
             
           }
         },
