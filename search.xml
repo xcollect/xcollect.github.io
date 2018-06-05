@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Archiver 3.0.4]]></title>
+    <url>%2Fapp%2FArchiver-3-0-4.html</url>
+    <content type="text"><![CDATA[档案像馅饼一样简单。Archiver使归档工作变得简单。但我们知道还有改进的余地，所以我们加紧努力，让档案工作更容易。Archiver 2为您带来全新的界面，快速的工作流程和快速预览。 简介快速浏览。告别提取存档中的所有文件，以查看里面的内容！使用Archiver 2，您可以采取潜行高峰和预览档案。它会变得更好：Archiver允许您只提取真正需要的文件。这只是一拖而已。 拖放式的喜悦。再也不用担心归档格式了 - Archiver的拖放功能比以往任何时候都更加精彩！只需将您的文件拖放到应用程序中，然后观看Archiver就可以完成剩下的工作。 收缩图像和音乐文件。你有没有试过只发送一张图片来告诉这个文件太大？你的文件上传似乎永远持续下去吗？输入Archiver 2的压缩格式，您可以真正缩小图像和音频文件。 得心应手。Archiver 2可以充分利用您的Mac，让您可以同时完成更多任务。而且这非常容易！通过简单地拖入更多档案，Archiver会一次性为您并排提取它们。 这对每个人都是一个秘密。保持数据的私密性，保持安全！借助Archiver 2，您可以通过输入您希望使用的密码将其加密保存在密码保护的加密档案中，从而保护您的敏感文件。 拆分和组合。得到的文件对于磁盘或电子邮件来说太大了？Archiver一直擅长分割和合并文件。借助Archiver 2，您现在还可以创建拆分归档。你所需要做的就是指定每个块的大小，并且你很好去！ Archiver 3.0.4的新增功能此更新增加了功能并增加了稳定性改进。建议所有用户更新。 细节的变化： 新功能：记住应用程序重新启动之间的“显示密码”状态 新功能：记住应用重新启动之间的加密设置 新增：添加密码验证改进 新增：.jar归档支持 新功能：.aar档案支持 新增功能：.apk归档支持 下载地址 (解压密码：ipfsp2p.com) 百度网盘 — 提取密码：gicx 截图]]></content>
+      <categories>
+        <category>Mac</category>
+        <category>Utilities</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Parallels Desktop Business Edition 13.3.1 [43365]]]></title>
+    <url>%2Fapp%2FParallels-Desktop-Business-Edition-13-3-1-43365.html</url>
+    <content type="text"><![CDATA[Parallels允许您并排运行Windows和Mac应用程序。选择您的视图以使Windows在仍然使用其应用程序时不可见，或在Mac上保留熟悉的Windows背景和控件。 简介现在支持Windows 10并准备好了El Capitan 轻松运行Windows 10和OSX®El Capitan。在您的Mac上使用MicrosoftCortana®，您的虚拟助手。从PC切换到Mac 我们可以轻松地将您的所有文件，应用程序，浏览器书签等从您的PC上传到Mac; 只需按照设置助理。 适用于BootCamp® 重新使用现有的Boot Camp安装。从Boot Camp转换虚拟机现在比以往更容易，更直观。 不仅仅是Windows 运行多种操作系统，包括OS X，Windows 10,8.1和7，Linux和Google ChromeTM。你可以在Mac上运行任何东西！ 一键式调整 选择生产力，游戏，设计或开发，Parallels Desktop 11 for Mac将为您优化虚拟机设置和性能。 强大的性能 Parallels Desktop Pro Edition为您的虚拟机提供更强的处理能力。每个虚拟机最高64 GB vRAM和16个vCPU可让您轻松运行最苛刻的应用程序。 商务舱软件 使用统一批量许可证密钥，集中式许可证管理和Parallels Desktop Business Edition中提供的高级安全功能，让IT部门控制最终用户许可证和Windows虚拟机。 Parallels Desktop Business Edition 13.3.1的新增功能[43365] 将截图和其他文件附加到技术数据报告中。 解决关闭后打开MacBook的盖子时声音不在虚拟机中播放的问题。 解决了在选择“始终准备好后台”选项启动虚拟机时屏幕刷新率变低的问题。 解决了从Dock.Windows支持启动客户操作系统应用程序后出现的Parallels Desktop Control Center问题： 解决Parallels Tools无法安装在Windows 10 Boot Camp虚拟机中的问题。 解决与Windows共享的iCloud中不可见的应用程序相关文件夹的问题。 解决了从Visual Studio 2013开始的应用程序图标未出现在Dock中时的问题。 解决了MS Word 2011 for Mac仅在只读模式下将doc / docx文件保存到C：驱动器的问题。 解决了无法将Boot Camp分区作为第二个磁盘添加到虚拟机的问题。 解决访问来自客户操作系统的共享文件夹时Windows冻结的罕见问题。 在Google Chrome&gt; Google地图中搜索特定地址时，有时解决Windows 10崩溃的问题。 在Visual Studio.Linux支持中启动TwinCAT 3时解决Windows崩溃问题： 支持Ubuntu 18.04。 解决了Parallels Tools安装后未启动的Ubuntu 14.04的问题。 解决了prl_eth驱动程序未针对Linux内核4.15编译的问题。 解决Parallels Tools未在Kali Linux 2018.1中安装的问题。 解决了Parallels Tools未在Red Hat 7.5.macOS支持中安装的问题： 解决了iTunes在MacOS 10.8和10.9虚拟机中意外退出的问题。 解决了Parallels Tools未在macOS 10.13.3虚拟机中安装的问题。 解决了macOS 10.13.4虚拟机在从睡眠中醒来时冻结的问题。 解决了无法将macOS 10.13.3虚拟机升级到macOS 10.13.4的问题。 下载地址 (解压密码：ipfsp2p.com) 百度网盘 — 提取密码：8rhe 截图]]></content>
+      <categories>
+        <category>Mac</category>
+        <category>Utilities</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[OmniFocus Pro 2.12.2]]></title>
     <url>%2Fapp%2FOmniFocus-Pro-2-12-2.html</url>
     <content type="text"><![CDATA[OmniFocus帮助您按照自己想要的方式管理自己的任务，释放您的注意力，专注于最重要的事情。 简介捕获任务和想法始终是OmniFocus 2中的键盘快捷键。从Mail，Safari，Messages或第三方应用程序剪辑数据。调出快速入口，在它漂走之前提出一个想法; 它总是在你的指尖，等待更多。 2.12.2版中的新功能： 搜索：修复了搜索范围未正确保留的问题。 崩溃：修复了OmniFocus 2.8.1中最常见的崩溃问题 本地化：更新的本地化！ Bug修复 下载地址 (解压密码：ipfsp2p.com) 百度网盘 — 提取密码：pxku 截图]]></content>
